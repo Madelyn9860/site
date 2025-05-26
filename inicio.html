@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conoce mas acaerca del municipio de Saltillo Lafragua</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, #92b1ea, #2575fc); /* Degradado moderno */
+            padding: 80px 20px;
+            text-align: center;
+            color: white;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        }
+        header h1 {
+            font-size: 48px;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        header p {
+            font-size: 20px;
+            margin: 10px 0 0;
+            opacity: 0.9;
+        }
+        .hero {
+            position: relative;
+            height: 400px;
+            background: url('https://via.placeholder.com/1920x800') no-repeat center center/cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        }
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5); /* Overlay oscuro */
+        }
+        .hero h2 {
+            font-size: 42px;
+            margin: 0;
+            position: relative;
+            z-index: 1;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .hero p {
+            font-size: 20px;
+            margin: 10px 0 0;
+            position: relative;
+            z-index: 1;
+            opacity: 0.9;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+        .intro {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .intro h2 {
+            font-size: 36px;
+            color: #0f0f10; /* Color morado moderno */
+            margin-bottom: 20px;
+        }
+        .intro p {
+            font-size: 18px;
+            max-width: 800px;
+            margin: 0 auto;
+            opacity: 0.9;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .card-content {
+            padding: 20px;
+        }
+        .card h3 {
+            font-size: 24px;
+            margin: 0 0 10px;
+            color: #161516;
+        }
+        .card p {
+            font-size: 16px;
+            opacity: 0.9;
+        }
+        footer {
+            background: linear-gradient(135deg, #2575fc, #3f54b3); /* Degradado moderno */
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            color: white;
+            box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.3);
+        }
+        footer p {
+            margin: 0;
+            font-size: 16px;
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Conoce mas acerca del municipio de Saltillo Lafragua</h1>
+        <p>Descubre su riqueza cultural, histórica y gastronómica.</p>
+    </header>
+
+    <!-- Sección Hero -->
+    <div class="hero">
+        <div>
+            <h2>Bienvenidos</h2>
+            <p>Un viaje a través de la historia, la tradición y el sabor.</p>
+        </div>
+    </div>
+
+    <!-- Contenido Principal -->
+    <div class="container">
+        <!-- Introducción -->
+        <div class="intro">
+            <h2>Explora Saltillo Lafragua</h2>
+            <p>
+                Puebla es un estado lleno de contrastes, donde la historia se mezcla con la modernidad. 
+                Desde su impresionante arquitectura colonial hasta su deliciosa gastronomía, Puebla ofrece 
+                una experiencia única para todos sus visitantes, este municupio no es la excepción ya que esconde gran diversidad de cultura.
+            </p>
+        </div>
+
+        <!-- Tarjetas de Información -->
+        <div class="grid">
+            <!-- Tarjeta 1: Gastronomía -->
+            <div class="card">
+                <img src="gastronomia1.png" alt="Gastronomía Poblana">
+                <div class="card-content">
+                    <h3>Gastronomía</h3>
+                    <p>
+                        Descubre los sabores únicos de Lafragua, como el mole poblano, barbacoa
+                     y, platillos que han conquistado paladares en todo el mundo.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Tarjeta 2: Arquitectura -->
+            <div class="card">
+                <img src="arquitectura.png" alt="Arquitectura Poblana">
+                <div class="card-content">
+                    <h3>Arquitectura</h3>
+                    <p>
+                        Admira la belleza de la arquitectura colonial como la parroquia de la comunidad. 
+                        .
+                    </p>
+                </div>
+            </div>
+
+            <!-- Tarjeta 3: Tradiciones -->
+            <div class="card">
+                <img src="Cultura.jpeg" alt="Tradiciones Poblanas">
+                <div class="card-content">
+                    <h3>Tradiciones</h3>
+                    <p>
+                        Conoce las tradiciones más reelevantes de Saltillo Lafragua, que reflejan la riqueza cultural de este municipio..
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Cultura de Puebla. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
